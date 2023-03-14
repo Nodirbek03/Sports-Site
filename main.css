@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+}
+nav ul,li{
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+ul{
+  margin-left: 50%;
+}
+.logo{
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
